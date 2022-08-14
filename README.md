@@ -9,3 +9,5 @@ To use this in your own setup, replace the following values with your own:
 <replace_with_nginx_server_ip> - The IP address of the NGINX server this configuration is installed on
 <replace_with_minecraft_server_ip> - The IP address of the Minecraft server that you are proxying to
 ```
+
+> ⚠️ You must have the stream module installed for the `stream` directive to function! (see [this](https://nginx.org/en/docs/stream/ngx_stream_core_module.html))
