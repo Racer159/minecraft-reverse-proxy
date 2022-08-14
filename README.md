@@ -10,4 +10,4 @@ To use this in your own setup, replace the following values with your own:
 <replace_with_minecraft_server_ip> - The IP address of the Minecraft server that you are proxying to
 ```
 
-> ⚠️ You must have the stream module installed for the `stream` directive to function! (see [this](https://nginx.org/en/docs/stream/ngx_stream_core_module.html))
+> ⚠️ You must have the `ngx_stream_core_module` and `ngx_http_proxy_module` modules installed for the `stream` and `proxy pass` directives to function! (see [this](https://nginx.org/en/docs/stream/ngx_stream_core_module.html) and [this](https://nginx.org/en/docs/http/ngx_http_proxy_module.html) respectively)
